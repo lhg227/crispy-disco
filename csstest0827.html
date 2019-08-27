@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+
+<head>
+
+  <meta charset="utf-8">
+  <title></title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .divT {
+      width: 600px;
+      height: 50px;
+      /* background-color: rgb(112, 212, 147); */
+    }
+
+    .divT ul {
+      width: 540px;
+      height: 50px;
+      /* background-color: rgb(176, 134, 40); */
+      margin-left: 30px;
+      text-align: center;
+      border-bottom: 1px solid gray;
+    }
+
+    .divT ul li {
+      display: inline-block;
+      /* background-color: rgb(212, 112, 112); */
+      margin-right: 15px;
+      /* 한 줄일 때만 사용 가능 */
+      line-height: 50px;
+    }
+
+    .divT ul li a {
+      text-decoration: none;
+      color: black;
+      /* background-color: rgb(53, 176, 129); */
+      height: 100%;
+      display: inline-block;
+    }
+
+
+    .divL {
+      width: 230px;
+      height: 500px;
+      /* background-color: rgb(201, 212, 112); */
+      display: inline-block;
+      margin-top: 1px;
+      float: left;
+    }
+
+    .divL_ch {
+      width: 200px;
+      margin-left: 30px;
+      margin-top: 10px;
+
+    }
+
+    .divL_img {
+      /* background-color: red; */
+      height: 100px;
+
+
+    }
+
+    .divL_img img {
+      float: left;
+      width: 100%;
+      height: 100%;
+    }
+
+    .divL_text {
+
+      height: 50px;
+
+    }
+
+    .divL_text p {
+      font-size: 13px;
+      display: inline-block;
+
+    }
+
+    .divL_it {
+      /* background-color: green; */
+      height: 30px;
+      display: inline-block;
+    }
+
+    .icon_img {
+      height: 100%;
+      width: 30px;
+      /* background-color: red; */
+      display: inline-block;
+
+    }
+
+    .icon_img img {
+      width: 100%;
+      height: 100%;
+      float: left;
+    }
+
+    .icon_text {
+      width: 120px;
+      height: 100%;
+      /* background-color: blue; */
+      display: inline-block;
+      margin-left: 5px;
+
+    }
+
+    .icon_text b {
+      font-size: 16px;
+      color: gray;
+      line-height: 30px;
+      float: left;
+    }
+
+    .divR {
+      width: 370px;
+      height: 500px;
+      /* background-color: rgb(177, 112, 212); */
+      display: inline-block;
+      margin-left: -6px
+        /* 억지로 왼쪽 여백 준 */
+    }
+
+    .divR .list {
+      width: 80%;
+      height: 30px;
+      border-top: 1px solid gray;
+      float: right;
+    }
+
+    .list_text {
+      width: 80%;
+      height: 100%;
+      line-height: 30px;
+      /* background-color: red; */
+      display: inline-block;
+      float: left;
+
+    }
+
+    .list_icon {
+      width: 15%;
+      height: 100%;
+      /* background-color: black; */
+      margin-left: 3%;
+      display: inline-block;
+
+    }
+
+    .list_icon img {
+      width: 60%;
+      height: 80%;
+      margin-top: 5px;
+      float: right;
+      line-height: 0;
+    }
+  </style>
+
+</head>
+
+
+<body>
+
+  <div class="divT">
+    <ul>
+      <li><a href="">오늘의 뉴스</a></li>
+      <li><a href="">많이 본 뉴스</a></li>
+      <li><a href="">연예</a></li>
+      <li><a href="">Life</a></li>
+      <li><a href="">IT/과학</a></li>
+      <li><a href="">스포츠</a></li>
+      <li><a href="">자동차</a></li>
+    </ul>
+  </div>
+  <div class="divL">
+
+    <div class="divL_img divL_ch">
+      <img src="https://cdn.pixabay.com/photo/2017/07/07/12/34/lime-2481358_960_720.jpg" alt="">
+    </div>
+
+    <div class="divL_text divL_ch">
+      <p>안녕하세요. 웹 콘텐츠 디자인 과정에 오신 걸 환영합니다.</p>
+    </div>
+
+    <div class="divL_it divL_ch">
+
+      <div class="icon_img">
+        <img src="heart.png" alt="">
+      </div>
+
+      <div class="icon_text">
+        <b>좋아요</b>
+      </div>
+
+    </div>
+
+  </div>
+  <div class="divR">
+    <!--div이름 =div left, right, top -->
+    <div class="list list_01">
+      <div class="list_text">
+        <p>오늘은 참 덥군요.</p>
+      </div>
+
+      <div class="list_icon">
+        <img src="heart.png" alt="">
+      </div>
+
+    </div>
+    <div class="list list_02">
+      <div class="list_text">
+        <p>배가 부르군요.</p>
+      </div>
+
+      <div class="list_icon">
+        <img src="heart.png" alt="">
+      </div>
+    </div>
+
+    <div class="list list_03">
+      <div class="list_text">
+        <p>국수가 있군요.</p>
+      </div>
+
+      <div class="list_icon">
+        <img src="heart.png" alt="">
+      </div>
+    </div>
+
+    <div class="list list_04">
+      <div class="list_text">
+        <p>빅맥.</p>
+      </div>
+
+      <div class="list_icon">
+        <img src="heart.png" alt="">
+      </div>
+
+    </div>
+    <div class="list list_05">
+      <div class="list_text">
+        <p>나트륨 함량.</p>
+      </div>
+
+      <div class="list_icon">
+        <img src="heart.png" alt="">
+      </div>
+    </div>
+    <div class="list list_06">
+      <div class="list_text">
+        <p>아이스크림.</p>
+      </div>
+
+      <div class="list_icon">
+        <img src="heart.png" alt="">
+      </div>
+    </div>
+    <div class="list list_07">
+      <div class="list_text">
+        <p>만두</p>
+      </div>
+
+      <div class="list_icon">
+        <img src="heart.png" alt="">
+      </div>
+    </div>
+    <div class="list list_08">
+      <div class="list_text">
+        <p>라이스버거.</p>
+      </div>
+
+      <div class="list_icon">
+        <img src="https://pixabay.com/get/54e1d1424e5aa914f1dc8460825668204022dfe055577940742b78d1/icon-2141485_640.png" alt="">
+      </div>
+    </div>
+  </div>
+</body>
+
+
+
+</html>
