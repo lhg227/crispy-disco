@@ -1,0 +1,154 @@
+*{
+  margin: 0; padding: 0;
+}
+body {
+  overflow: hidden;
+  /* background-color: cyan; */
+}
+.for_border{
+  /* background-color: lightblue; */
+  width: 100%;
+  height: 130px;
+  border-top: solid red 4px;
+
+
+}
+header {
+  width: 1200px;
+  height: 130px;
+  /* background-color: pink; */
+  margin: 0 auto;
+}
+header .wrap_left{
+  float: left;
+  /* background-color: rgb(95, 4, 135); */
+  width: 235px;
+  height: 63px;
+  position: relative;
+  top:50%;
+  transform: translateY(-50%);
+  margin-left: 33px;
+
+
+}
+header .wrap_left .black_text h3{
+  color: red;
+  display: inline-block;
+  font-size: 21px;
+  font-weight: normal;
+}
+.black_text {
+  font-size: 15px;
+  font-weight: bold;
+}
+.gray_text {
+  font-size: 11px;
+  font-weight: bold;
+  color: gray;
+}
+.logo{
+  position: relative;
+  top: 20%; left: 26%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+}
+
+.wrap_right{
+  margin-top: 35px;
+  float: right;
+  width: 215px;
+  height: 75px;
+  /* background-color: lightyellow; */
+
+}
+.lang {
+  color: rgb(83, 83, 83);
+  font-size: 11px;
+  font-weight: bold;
+  margin-left: 70px;
+
+}
+
+.lang a {
+
+  color: rgb(83, 83, 83);
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.family{
+  margin-top: 15px;
+  margin-left: 5px;
+}
+section {
+  width: 1200px;
+  height: 65px;
+  margin: 0 auto;
+
+}
+section ul {
+
+  width: 1200px;
+
+
+
+
+
+
+}
+section ul li {
+  display: inline-block;
+  text-align: center;
+  font-size: 18px;
+  position: relative;
+  height: 65px;
+}
+section ul .bar {
+  color: gray;
+}
+section ul .block1{
+  width: 218px;
+  height: 70px;
+  /* background-color: rgb(117, 120, 156); */
+
+}
+section ul .block2{
+  width: 240px;
+  height: 70px;
+  /* background-color: rgb(205, 202, 231) */
+
+}
+section ul li span{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+section ul .block3{
+  width: 220px;
+  height: 70px;
+  /* background-color: rgb(76, 83, 133); */
+
+}
+
+section ul .block4{
+  width: 165px;
+  height: 70px;
+  /* background-color: rgb(76, 83, 133); */
+
+}
+.top_border {
+  width: 100%;
+  height: 1px;
+
+  border-top: solid rgb(172, 172, 172) 1px;
+}
+footer {
+  width: 1920px;
+  height: 700px;
+  margin: 0 auto;
+}
+footer img {
+  width: 100%;
+  height: 100%;
+}
